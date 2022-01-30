@@ -69,13 +69,14 @@ img {
 
 }
 
-img:hover {
+img:nth-child(even) {
+    border: solid 5px #006f40;
+}
+
+img:hover, img:nth-child(even):hover {
     border: ridge 10px #5e2116;
     width: 85%;
     border-radius: 8px;
     padding: 0px; 
 }
 
-img:nth-child(even) {
-    border: solid 5px #006f40;
-}
